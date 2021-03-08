@@ -1,0 +1,747 @@
+ERROR - 2021-03-07 02:09:25 --> mysqli_sql_exception: Table 'posts' already exists in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `p...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\wamp\www\readright\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\wamp\www\readright\app\Database\Migrations\2020-04-30-055827_posts.php(30): CodeIgniter\Database\Forge->createTable('posts')
+#5 C:\wamp\www\readright\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Posts->up()
+#6 C:\wamp\www\readright\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp\www\readright\app\Controllers\Migrate.php(43): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Migrate->index()
+#9 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#10 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-07 02:14:58 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:16:57 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:18:15 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:19:24 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:19:32 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:20:14 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:20:46 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:23:17 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:32:40 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:34:19 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:34:35 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:36:39 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:38:33 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 02:39:11 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 03:41:29 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 03:42:57 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 03:43:13 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 04:15:58 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 04:16:40 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 04:16:59 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 04:18:03 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-07 04:18:20 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\wamp\www\readright\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp\www\readright\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp\www\readright\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp\www\readright\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp\www\readright\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp\www\readright\app\Controllers\Auth.php(57): App\Models\Auth_model->register(Array)
+#6 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#7 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-07 04:30:25 --> Call to a member function post() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:31:06 --> Call to a member function post() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:33:10 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:33:25 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:37:13 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:37:18 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:40:04 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:40:49 --> Class name must be a valid object or a string
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:42:24 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:42:30 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:44:58 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:45:20 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:45:26 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 04:45:47 --> Call to undefined method CodeIgniter\Router\RouteCollection::postt()
+#0 C:\wamp\www\readright\system\CodeIgniter.php(803): require()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 05:46:43 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 05:54:54 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 06:11:34 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 06:11:56 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\wamp\www\readright\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp\\www\\rea...')
+#1 C:\wamp\www\readright\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp\www\readright\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-07 08:57:43 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 08:57:56 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 08:59:34 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:00:31 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:00:37 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:02:52 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:09:08 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:09:10 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:11:38 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:12:28 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:17:33 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:18:11 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:18:25 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:18:31 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:28:33 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:32:24 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:34:30 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:36:10 --> Class name must be a valid object or a string
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:36:23 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:38:34 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:38:53 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:41:22 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 09:44:06 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:23:57 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:26:16 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:26:20 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:28:00 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:28:31 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:28:52 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:29:49 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:29:52 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:32:03 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:32:10 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:33:47 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:34:17 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:34:20 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:36:01 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:37:09 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:37:25 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:37:36 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:37:53 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:38:37 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:39:03 --> syntax error, unexpected ']', expecting end of file
+#0 C:\wamp\www\readright\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp\\www\\rea...')
+#1 C:\wamp\www\readright\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp\www\readright\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-07 11:40:40 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:40:43 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:40:45 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:40:56 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:44:53 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:49:38 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:49:40 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:50:26 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:50:30 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:52:01 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:59:16 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 11:59:18 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,189 @@
+ERROR - 2021-03-06 18:31:20 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:31:20 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(76): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:32:31 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:32:31 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\wamp\www\readright\app\Controllers\Auth.php(54): App\Models\Auth_model->register(Array)
+#4 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#5 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-03-06 18:33:07 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:33:07 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\wamp\www\readright\app\Controllers\Auth.php(54): App\Models\Auth_model->register(Array)
+#4 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#5 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-03-06 18:41:14 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:41:14 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(76): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:41:19 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:41:19 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(76): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:42:40 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:42:40 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(76): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:42:42 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:42:42 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(76): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:52:40 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:52:40 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(77): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:52:52 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:52:52 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(77): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:53:13 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:53:13 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(77): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:53:47 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:53:47 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(77): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:54:15 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:54:15 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(78): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:56:33 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:56:33 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(78): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 18:59:53 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 18:59:53 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\wamp\www\readright\system\Model.php(836): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\wamp\www\readright\app\Models\Auth_model.php(21): CodeIgniter\Model->__call('countAll', Array)
+#4 C:\wamp\www\readright\app\Controllers\Auth.php(78): App\Models\Auth_model->cek_login(NULL)
+#5 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-06 19:02:21 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 19:02:21 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#4 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#5 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-03-06 19:02:46 --> Error connecting to the database: Unknown database 'readright'
+CRITICAL - 2021-03-06 19:02:46 --> Unable to connect to the database.
+#0 C:\wamp\www\readright\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp\www\readright\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\wamp\www\readright\app\Models\Auth_model.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\wamp\www\readright\app\Controllers\Auth.php(55): App\Models\Auth_model->register(Array)
+#4 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#5 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-03-06 19:21:38 --> Error connecting to the database: Unknown database 'readright'

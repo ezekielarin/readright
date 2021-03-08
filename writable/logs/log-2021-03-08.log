@@ -1,0 +1,570 @@
+CRITICAL - 2021-03-08 00:43:07 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:43:12 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:43:57 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:44:35 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:44:37 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:45:02 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:45:52 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:46:55 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:48:20 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:49:00 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:50:08 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:50:10 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:50:41 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:50:54 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:51:11 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:52:09 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:52:36 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:52:45 --> Call to a member function privateKey() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:52:56 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:53:07 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:54:22 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:55:04 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:55:20 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:55:58 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:56:48 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:56:50 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:57:39 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:59:35 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:59:38 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 00:59:41 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:01:06 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:01:48 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:02:18 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:02:21 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:02:50 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:03:09 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->index()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:03:15 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:03:27 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:03:29 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:04:47 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:05:45 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:20:13 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:20:30 --> Class 'App\Controllers\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:20:40 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:21:02 --> Call to a member function get_posts() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:21:57 --> Class 'App\Models\Post' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:22:06 --> Class 'App\Controllers\Post_model' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(908): App\Controllers\Posts->__construct()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:40:38 --> Call to a member function table() on null
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Posts->list()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:03:28 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:13:57 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:15:09 --> Class 'App\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:15:56 --> Class 'App\ThirdParty\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:15:59 --> Class 'App\ThirdParty\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:18:06 --> Class 'App\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:21:24 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:21:27 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:25:50 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:29:23 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:29:25 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:30:41 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:31:21 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:31:59 --> Class 'App\Controllers\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:32:16 --> Class 'App\Controllers\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:32:30 --> Class 'App\Controllers\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:33:00 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:36:28 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:36:30 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:36:44 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:37:57 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:38:18 --> Class 'vendor\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:39:24 --> Class 'vendor\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:39:36 --> Class 'vendor\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:39:38 --> Class 'vendor\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:39:47 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:40:00 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:40:16 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:42:21 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:43:43 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:47:21 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:48:10 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:48:13 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:48:59 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:49:01 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:54:51 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:56:00 --> Class name must be a valid object or a string
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 02:56:31 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:01:01 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:18:05 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:19:25 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:19:28 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:22:07 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:23:44 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:24:40 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:27:36 --> Class 'App\Controllers\Firebase\JWT\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 03:27:59 --> Class 'App\Controllers\JWT' not found
+#0 C:\wamp\www\readright\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#1 C:\wamp\www\readright\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp\www\readright\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\readright\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
